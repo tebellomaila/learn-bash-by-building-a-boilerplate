@@ -65,3 +65,4 @@ nano auto-commit.sh
 chmod +x auto-commit.sh
 ./auto-commit.sh
 ./auto-commit.sh
+./auto-commit.sh
