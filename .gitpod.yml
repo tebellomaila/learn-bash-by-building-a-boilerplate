@@ -13,7 +13,7 @@ tasks:
       git config --global user.name "tebellomaila"
       git config --global user.email "tebellomakhura@outlook.com"
       git add .
-      git commit -m "Automated commit on workspace start: $(date)"
+      git commit -m "Save progress on workspace start: $(date)"
       git push origin main || echo "No changes to push" 
     command: |
       sudo rm /workspace/project/CHANGELOG.md
